@@ -1,0 +1,38 @@
+nav {
+  padding: 18px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  background-color: var(--black-010);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.05;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--grey);
+  }
+}
+
+nav ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+}
+
+
+ 

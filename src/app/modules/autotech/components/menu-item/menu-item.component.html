@@ -1,0 +1,12 @@
+<nav>
+  <ul>
+    @for(item of listMenuItems(); track item){
+    <li>
+      <a [routerLink]="item.path" routerLinkActive="active">
+        <img [src]="item.icon" [alt]="item.name" width="24px" height="24px" />
+        {{ item.name }}
+      </a>
+    </li>
+    }
+  </ul>
+</nav>

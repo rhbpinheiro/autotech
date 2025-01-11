@@ -1,0 +1,22 @@
+:host {
+  background-color: #f5f5ff;
+  width: 100vw;
+  overflow: hidden;
+  .container {
+    margin-top: 20px;
+    height: 100vh;
+    text-align: center; 
+    height: 100vh;
+    background-image: url('/../../../assets/page-not-found.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    h1{
+      color: #673ee5;
+      font-size: 2rem;
+      margin: 0;
+      padding: 0; 
+    }
+  }
+}

@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.template {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+
+}
+
+.sidebar {
+  width: 300px; /* Aumente para o valor desejado */
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+
+.content {
+  flex: 1;
+  display: flex; /* Define como um container flexível */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 16px;
+  
+
+}

@@ -1,0 +1,25 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px; /* Aumente para o valor desejado */
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 16px;
+  background-color: #f5f5ff;
+  border-radius: 10px 0 0 10px;
+}

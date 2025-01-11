@@ -1,0 +1,27 @@
+:host {
+  width: 100%;
+  height: 75px;
+  padding: 10px 20px;
+
+  background: var(--black-010);
+  color: var(--white);
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .avatar {
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  header  {
+    cursor: pointer;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
